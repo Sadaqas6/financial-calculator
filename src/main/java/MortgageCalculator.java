@@ -33,6 +33,7 @@ public class MortgageCalculator {
         double totalInterest = (m * n)-p;
 
         System.out.printf("\n$%.2f/mo payment with a total interest of $%.2f", m , totalInterest);
+        System.out.println("\n$" + Math.round(m) + "/mo payment with a total interest of "+ Math.round(totalInterest));
 
 
 
